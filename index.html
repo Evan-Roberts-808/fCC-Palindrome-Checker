@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Palindrome Checker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="input-container">
-      <input id="text-input" />
+    <section class="container">
+    <h1 class="row justify-content-center">Is It A Palindrome?</h1>
+    <div id="input-container" class="row justify-content-center">
+      <input id="text-input" placeholder="Enter Potential Palindrome"/>
       <button id="check-btn">Check</button>
     </div>
-    <div id="result">
+    <div id="result" class="row justify-content-center">
 
     </div>
+    <div id="descriptor" class="row justify-content-center">
+      <p class="desc-text">A palindrome is a word or phrase that can be read the same way forwards and backwards, ignoring punctuation, case, and spacing.</p>
+    </div>
+    </section>
 	<script src="script.js"></script>
   </body>
 </html>
